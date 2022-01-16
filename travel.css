@@ -1,0 +1,86 @@
+*{
+    margin:0;
+padding: 0;
+}
+body{
+    background: linear-gradient(#29002a,#1b0120);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    position:fixed;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+#logo{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 35px;
+    padding: 10px;
+    margin-left: 20px;
+}
+#navbar{
+    margin-right: 30px;
+}
+a:hover , .active{
+    background: white;
+    color: #29002a;
+    border-radius:30%;
+}
+#images{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+img{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+#moon{
+    mix-blend-mode: screen;
+}
+#content {
+    margin-top: 80px;
+    position:absolute;
+    margin-left: 70px;
+}
+#title{
+    margin-left: 30%;
+    color: white;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#quote{
+    margin-top: 6%;
+    color: white;
+    font-size: 20px;
+}
+#kmore{
+    background-color: #61135000;
+    border-radius: 40%;
+    margin:10%;
+    margin-left: 50%;
+    color: white;
+    padding: 15px;
+    border-color: white;
+}
+#info{
+    display: flex;
+    size: 20px;
+}
+#london{
+    height: 40vh;
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 7%;
+}
